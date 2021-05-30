@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-CleanArchitecture.WebUI-766A5BFB-4839-4415-81AD-D836FFF22526</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Infra.Data\CleanArchitecture.Infra.Data.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Infra.IoC\CleanArchitecture.Infra.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
